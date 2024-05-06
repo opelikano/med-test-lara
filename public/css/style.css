@@ -1,0 +1,33 @@
+.pagination {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.pagination a {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-right: 5px;
+    border: 1px solid #ddd;
+    background-color: #f5f5f5;
+    color: #333;
+    border-radius: 4px;
+}
+
+.pagination .active a {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.pagination .disabled a {
+    color: #ccc;
+}
+
+.pagination .prev,
+.pagination .next {
+    display: inline-block;
+    padding: 6px 12px;
+    border: 1px solid #ddd;
+    background-color: #f5f5f5;
+    color: #333;
+    border-radius: 4px;
+}
